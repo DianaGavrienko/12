@@ -1,0 +1,20 @@
+using System;
+
+namespace Metod
+{
+     classProgram
+    {
+        static  voidPerimetr(int a, int b, int c)
+        {
+            int Per = a + b + c;
+            Console.WriteLine($"Периметр тругла равен = {Per}");
+        }
+          staticvoidMain(string[] args)
+        {
+            Console.WriteLine("Введите стороны треугольника:");
+            Perimetr(int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()), int.Parse(Console.ReadLine()));           
+        
+        }
+
+    }
+}
